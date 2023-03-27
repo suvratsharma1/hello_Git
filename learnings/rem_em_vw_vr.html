@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>width tags</title>
+        <style>
+            html{
+                font-size: 30px;
+            }
+            .main{
+                font-size: 30px;
+            }
+            .parent{
+                font-size: 40px;
+            }
+            .box{
+                background-color:aquamarine;
+                margin: 10px;
+            }
+            .px{
+                width: 200px;
+            }
+            .vw{
+                width: 10vw;
+            }
+            .rem{
+                width: 10rem;
+            }
+            .em{
+                width: 10em;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <!-- this 200 px will make the size 200 px no matter how big or small the screen is -->
+        <div class="box px">I am 200 px wide</div>
+        <!-- 10vw will take up 10% of the sscreen font-size -->
+        <div class="box vw">I am 10 vw wide</div>
+        <!-- this will be 10 times of the root element, which is html in this case -->
+        <!-- by default the size of the root element is 16 px, but here in this case we defined that the root element html is 30 px wide -->
+        <div class="box rem">I am 10rem wide</div>
+        <div class="parent">
+            <!-- this em will be 10 times wide of the element or parent element in this case -->
+        <div class="box em">I am 10 em wide</div>
+        </div>
+        </div>
+    </body>
+</html>

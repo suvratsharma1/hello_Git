@@ -1,0 +1,39 @@
+/* this is universal selector */
+*{
+    background-color:azure;
+}
+/* this is element selector */
+h2{
+    color: aquamarine;
+    font-size: 80px;
+}
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* this is class selector */
+.suvrat{
+    color: blueviolet;
+}
+.sharma{
+    text-align: center
+    ;
+}
+.sharma.suvrat{
+    font-size: 10px;
+}
+/* this is id selector */
+#unique{
+    color: greenyellow;
+    text-underline-offset: 1;
+}
+/* this is grouping selector */
+h2,h3,a{
+    color: lightgreen;
+}
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 2px dotted red;
+}
