@@ -1,1 +1,4 @@
 new.html
+#this file that we want to ignore
+# *.txt this will ignore all files of type .txt
+# !2.txt this will leave this file to be ognored
