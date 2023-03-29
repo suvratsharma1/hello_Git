@@ -1,3 +1,4 @@
+// var let const there are three types of variable that we will be learning here
 var str;
 //backslash n "\n" for changing the line 
 str ="hello how are you \n i am fine"  //to print in next line
