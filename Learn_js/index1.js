@@ -13,3 +13,22 @@ console.log(str1)
 var a=200;
 // it will compute whats inside the box first
 console.log(`half of ${a} is ${a/2}`) // this is container like %d in c language
+// ${a} is dynamic value container it computes the value first
+
+
+//var has some problem
+var d=100;
+console.log(d);
+
+var d= 'helloworld';
+console.log(d);
+//because re-declaration is allowed here, so to overcome this problem
+//let was introduced
+
+let e = 100;
+console.log(e)
+e="hello world";
+console.log(e);
+console.log(typeof e);
+//here in let redeclaration is not allowed it will lead into a syntax errors
+//but re-intializaition is allowed here
