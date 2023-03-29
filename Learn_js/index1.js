@@ -30,5 +30,14 @@ console.log(e)
 e="hello world";
 console.log(e);
 console.log(typeof e);
-//here in let redeclaration is not allowed it will lead into a syntax errors
+//here in "let" redeclaration is not allowed it will lead into a syntax errors
 //but re-intializaition is allowed here
+
+//const keyword
+const f=5;
+console.log(f);
+f=6; // this will lead into  "Assignment to constant variable." error
+const f ="hi"; // this will lead into "Identifier 'f' has already been declared" error
+
+//so here we learned that const variable doesn't allow either re-declaration
+//or re-intialization
