@@ -40,9 +40,10 @@ console.log(arr);
 console.log(arr.length);
 
 // 2d Arrays
+//k/a Array of arrays
 
 let array2d = [[1,2,3],[4,5,6],[7,8,9]]
-console.log(array2d);
+console.log(array2d); //to print 2d array
 console.table(array2d); // using this we can print the 2d array in tabular form or we can say matrix form
 
 // to access elemts in a 2d array
